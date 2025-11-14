@@ -1,0 +1,93 @@
+<html>
+<head>
+<style>
+
+h1{
+  color:white;
+  font-size:30px;
+  margin:20px auto;
+  text-align:center;
+  }
+  body{
+  background:#212121;
+  }
+#box{
+   height:600px;width:800px;
+   background:#181818;
+   margin:50px auto;
+   box-shadow:0px 0px 45px 5px black;
+   padding:65px 60px;
+   box-sizing:border-box;
+   border-radius:5px;
+   border:1px solid white;
+   }
+   .txt{
+      height:50px;
+	  width:500px;
+   background:#181818;
+   margin-bottom:28px;
+   padding-left:20px;
+   box-sizing:border-box;
+   font-sizing:20px;
+   border:1px solid white;
+   }
+   ::placeholder{
+          color:;
+		  font-weight:bold;font-size:18px;
+		  }
+	.btn{
+	height:70px;width:100%;
+   border:none;
+   font-sizing:20px;
+   color:black;
+   margin-left:285px;
+   box-sizing:border-box;
+   
+   }
+  .btn:hover{
+      background:#408080; 
+	  color:white;
+	  transition:all ease 2s;
+	  border:15px solid #400080;
+	  }
+    .area{
+         height:100px;
+         width:500px;
+		 background:#181818;
+		 color:white;
+		 padding:15px;
+       }		 
+</style>
+</head>
+<body>
+<h1>Send your Message</h1>
+<p style="color:white;text-align:center;">Enquiry form using html and css</p>
+<div id="box">
+<table>
+<tr>
+<td style="color:white;height:50px;width:150px;font-size:18px;">Your Name</td>
+<td><input type="text" placeholder="Customer Name" class="txt"/></td>
+</tr>
+<tr>
+<td style="color:white;height:50px;width:150px;font-size:18px;">Email Address</td>
+<td><input type="email" placeholder="Enter Your Email" class="txt"/></td>
+</tr>
+<tr>
+<td style="color:white;height:50px;width:150px;font-size:18px;">Bilt Number</td>
+<td><input type="number" placeholder="Bilt Number" class="txt"/></td>
+</tr>
+<tr>
+<td style="color:white;height:50px;width:150px;font-size:18px;">Phone Number</td>
+<td><input type="text" placeholder="Your Phone Number" class="txt"/></td>
+</tr> 
+<tr>
+<td style="color:white;height:50px;width:150px;font-size:18px;border:1px solid white;">Customer Enquiry</td>
+<td><textarea placeholder="Your Question" class="area"></textarea></td>
+</tr>
+<tr>
+<td class="btn"><input type="submit" value="SUBMIT"/><input type="reset" value="RESET"/></td>
+</tr>
+</table>
+</div>
+</body>
+</html>
